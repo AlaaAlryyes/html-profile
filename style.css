@@ -1,0 +1,89 @@
+.root {
+    display: flex;
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+body{
+    background-color: rgb(238, 237, 237);
+}
+.section-header {
+    color: #f0c000;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.side-panel {
+    padding: 30px;
+    background-color: rgb(238, 237, 237);
+}
+
+#main-panel {
+    display: flex;
+    padding: 30px;
+    background-color: white;
+    flex-direction: column;
+}
+
+
+.profession-title {
+    font-size: medium;
+    font-weight: 500;
+}
+
+
+.header {
+    padding-bottom: 30px;
+    width: 10%;
+}
+
+#name {
+    font-size: 300%;
+    padding-bottom: 0px;
+}
+
+.contact-type-title {
+    font-size: medium;
+    font-weight: 600;
+    padding: 20px 10px 0px 0px;
+}
+
+.contact-detail {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.title-underline {
+    height: 2px;
+    width: 40px;
+    background-color: #f0c000;
+}
+
+.side-section{
+    padding: 20px 0px 20px 0px;
+}
+
+
+li::marker {
+   color:#f0c000;
+}
+
+ul{
+    list-style-type: square ;
+}
+img{
+    width: 15px;
+    height: 15px;
+}
+
+.links{
+  display: flex;
+}
+
+.link{
+    padding: 8px;
+}
+
+
+
